@@ -1,0 +1,14 @@
+1. To run the MPG go to:https://www.apachefriends.org/index.html.
+2. Install Xampp and place the "MPG2Final"folder in 'htdocs' folder which gets created once installed. 
+3. Then run localhost/MPG2Final/map.php in the browser.
+
+There are two java client files: "Client.java" and "MPGClient.java". "Client.java" is part of the web interface (for commnunicatiing with the backend server).
+
+"MPGClient.java" is a stand-alone client that can be use to commnuiicate with the sever directly. 
+
+It will retrive all the information from MPG server as JSON object and then display it on the screen. You can play arount with this client to see all the information retrived from the server. 
+
+
+
+
+

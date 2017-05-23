@@ -1,0 +1,449 @@
+body {
+	background: grey; 
+	font-family: "Open sans", cursive, sans-serif;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#loader {
+      width: 100%;
+      height: 100%;
+      background-color: white;
+      margin: 0;
+}
+
+#screen{
+	position: relative;
+	
+}
+#map{
+	height : 85%;
+}
+.heading{
+	font-size: 20px;
+	font color: #f4c20f;
+}
+.banner{
+	background-color: #015249;
+	height: 10%;
+	top: 0;
+}
+.header{
+	background-color: #80b3ff;
+	height: 10%;
+	top: 0;
+}
+.footer{
+	height:20%;
+	margin-bottom: 0px;
+	background:#80b3ff;
+	
+	
+}
+.bannerText{
+	background-color: #015249;
+	font-size : 45px;
+	margin:0px;
+	
+	color:#57bc90;
+	text-align:center;
+}
+/*
+.height{
+	bottom: 
+}*/
+/* To fix the size of the text */
+#ALL{
+	font-size: 15px;
+}
+.Boxes1{
+	line-height: 30px;
+}
+.Boxes2{
+
+}
+
+.textbox { 
+    background: white; 
+    border: 1px solid #80b3ff; 
+    border-radius: 5px; 
+    box-shadow: 0 0 5px 3px #80b3ff; 
+    color: #666; 
+    outline: none; 
+    height:20px; 
+    line-height: 25px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 0px;
+  } 
+
+.small{
+	display: inline-block;
+	float: left;
+	clear: left;
+	width: 100px;
+	text-align: left;
+}
+
+.slide-out-div-topLeft {
+	padding: 20px;
+	width: 300px;
+	background: #1685ED;
+	border: #29216d 2px solid;
+	position: relative;
+	opacity: 0.9;  /*To make it somewhat transparent*/
+	z-index: 100;
+	height: 465px;
+}
+
+.slide-out-div-bottomLeft{
+	padding: 20px;
+	width: 300px;
+	background: #1685ED;
+	border: #29216d 2px solid;
+	position: relative;
+	opacity: 0.9;
+	z-index: 100;
+	
+}
+.slide-out-div-bottomLeft1{
+	padding: 20px;
+	width: 300px;
+	
+	
+	background: #1685ED;
+	border: #29216d 2px solid;
+	position: absolute;
+	opacity: 0.9;
+	z-index: 100;
+	
+}
+
+
+.slide-out-div-topRight {
+    padding: 20px;
+	width: 40%;
+	height:50%;
+	
+	background: #1685ED;
+	border: #29216d 2px solid;
+	position: relative;
+	opacity: 0.9;
+	z-index: 100;
+	
+}
+
+.slide-out-div-bottomRight{
+	padding: 20px;
+	width: 500px;
+	background: #1685ED;
+	border: #29216d 2px solid;
+	position: relative;
+	opacity: 0.9;
+	z-index: 100;
+}
+
+section.gradient button {
+	display: inline-block;
+	margin: 0 10px 0 0;
+	padding: 5px 12px;
+	font-size: 15px;
+	font-family: "Arial", cursive, sans-serif;
+	line-height: 1.5;
+	appearance: none;
+	box-shadow: none;
+	border-radius: 0;
+	width: 120px;
+}
+
+section.gradient button:focus {
+	outline: none
+}
+
+section.gradient button {
+	color: #fff;
+	text-shadow: -2px 2px #346392;
+	background-color: #3388ff;
+	background-image: linear-gradient(top, #6496c8, #346392);
+	box-shadow: inset 0 0 0 1px #27496d;
+	border: none;
+	border-radius: 5px;
+}
+
+section.gradient button:hover,
+section.gradient button.hover {
+	box-shadow: inset 0 0 0 1px #27496d,0 5px 15px #193047;
+}
+
+section.gradient button:active,
+section.gradient button.active {
+	box-shadow: inset 0 0 0 1px #27496d,inset 0 5px 30px #193047;
+}
+
+section.gradient input {
+	display: inline-block;
+	margin: 0 10px 0 0;
+	padding: 5px 12px;
+	font-size: 15px;
+	font-family: "Arial", cursive, sans-serif;
+	line-height: 1;
+	appearance: none;
+	box-shadow: none;
+	border-radius: 0;
+	width: 80px;
+}
+
+
+section.gradient input:focus {
+	outline: none
+}
+
+section.gradient input{
+	color: #fff;
+	text-shadow: -2px 2px #346392;
+	background-color: #3388ff;
+	background-image: linear-gradient(top, #6496c8, #346392);
+	box-shadow: inset 0 0 0 1px #27496d;
+	border: none;
+	border-radius: 5px;
+}
+
+section.gradient input {
+	color: #fff;
+	text-shadow: -2px 2px #346392;
+	background-color: #3388ff;
+	background-image: linear-gradient(top, #6496c8, #346392);
+	box-shadow: inset 0 0 0 1px #27496d;
+	border: none;
+	border-radius: 5px;
+}
+
+section.gradient input:hover,
+section.gradient input.hover {
+	box-shadow: inset 0 0 0 1px #27496d,0 5px 15px #193047;
+}
+
+section.gradient input:active,
+section.gradient input.active {
+	box-shadow: inset 0 0 0 1px #27496d,inset 0 5px 30px #193047;
+}
+
+
+
+
+.cmn-toggle {
+  position: absolute;
+  margin-left: -9999px;
+  visibility: hidden;
+}
+.cmn-toggle + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+}
+
+
+input.cmn-toggle-ScatterPlot + label {
+  padding: 2px;
+  width: 120px;
+  height: 40px;
+}
+input.cmn-toggle-ScatterPlot + label:before,
+input.cmn-toggle-ScatterPlot + label:after {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	color: #fff;
+	/*font-family: "Arial", cursive, sans-serif;*/  /*No need if given for the whole body*/
+	/*font-family: "Roboto Slab", serif;*/
+	font-size: 15px;
+	text-align: center;
+	line-height: 40px;
+	/*added*/
+	box-shadow: inset 0 0 0 1px #000000;
+	background-image: linear-gradient(top, #6496c8, #346392);
+	border: none;
+	border-radius: 13px;
+}
+input.cmn-toggle-ScatterPlot + label:before {
+	content: attr(data-off);
+	transition: transform 0.5s;
+	backface-visibility: hidden;
+	/*added*/
+	text-shadow: -1px 1px #000000;
+}
+input.cmn-toggle-ScatterPlot + label:after {
+	content: attr(data-on);
+	transition: transform 0.5s;
+	transform: rotateY(180deg);
+
+	backface-visibility: hidden;
+	/*added*/
+	text-shadow: -1px 1px #000000;
+}
+input.cmn-toggle-ScatterPlot:checked + label:before {
+	transform: rotateY(180deg);
+}
+input.cmn-toggle-ScatterPlot:checked + label:after {
+	transform: rotateY(0);
+}
+
+div{
+	line-height: 1;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: left;
+}
+/*css for table*/
+.table2 { 
+	color: #333;
+	/*font-family: Helvetica, Arial, sans-serif;*/
+	
+	border-collapse: 
+	collapse; border-spacing: 0; 
+}
+.table1 { 
+	color: #333;
+	/*font-family: Helvetica, Arial, sans-serif;*/
+	width: 640px; 
+	border-collapse: 
+	collapse; 
+	border-spacing: 0; 
+}
+.table3 { 
+	
+	color: #333;
+	/*font-family: Helvetica, Arial, sans-serif;*/
+	width: 640px; 
+	border-collapse: 
+	collapse; border-spacing: 0; 
+}
+
+td, th { 
+	border: 1px solid transparent; /* No more visible border */
+	height: 30px; 
+	transition: all 0.3s;  /* Simple transition for hover effect */
+}
+
+th {
+	background: grey;  /* Darken header a bit DFDFDF*/
+	font-weight: bold;
+}
+
+td {
+	background: #FAFAFA;
+}
+tr {
+	text-align: left;
+}
+
+tr:nth-child(even) td { background: #cce0ff; }
+tr:nth-child(odd) td { background: #80b3ff; }
+
+/* Cells in even rows (2,4,6...) are one color */ 
+/*tr:nth-child(even) td { background: #F1F1F1; }   */
+
+/* Cells in odd rows (1,3,5...) are another (excludes header cells)  */ 
+/*tr:nth-child(odd) td { background: #FEFEFE; }  */
+
+tr td:hover { background: #666; color: #FFF; } /* Hover cell effect! */
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+#addAlgoModal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.addAlgoSubmit{
+	background-color: #89bdd3;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 15px;
+}
+/* Modal Content/Box */
+.modal-header {
+    padding: 2px 16px;
+    background-color: #89bdd3;
+    color: white;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.closeAlgo {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.closeAlgo:hover,
+.closeAlgo:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.addAlgoText{
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

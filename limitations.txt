@@ -1,0 +1,10 @@
+2,500 free requests - Google Maps Loads
+
+Direction service - 
+Up to 23 waypoints per request
+50 requests per second
+2,500 free requests per day
+
+
+--------------------------------
+11 # of venues   5 algos

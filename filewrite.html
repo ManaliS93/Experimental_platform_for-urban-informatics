@@ -1,0 +1,16 @@
+<html>
+<script>
+function WriteToFile()
+{
+var fso = new ActiveXObject("Scripting.FileSystemObject");
+var s = fso.CreateTextFile("/Test.txt", true);
+s.WriteLine('Hello');
+s.Close();
+}
+WriteToFile()
+alert("wrote");
+</script>
+<body>
+hello
+</body>
+</html>

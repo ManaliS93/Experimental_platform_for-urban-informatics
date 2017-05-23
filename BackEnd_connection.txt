@@ -1,0 +1,6 @@
+Connection To back End:
+
+Connection to backend is achieved using AJAX call to handler.php file.
+handler.php executes client.class file.
+client.java contains the code to make socket connection to the server and sends input as a command line argument.
+Function showloader() contains the code to aggregate all the input parameters and to make an AJAX call.

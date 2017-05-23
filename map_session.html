@@ -1,0 +1,19 @@
+<?php
+session_start();
+?>
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<script>
+alert("it works");
+var savedata=JSON.parse(localStorage.savedata || null);
+if(savedata != null){
+	consol.log(savedata);
+}
+</script>
+
+</body>
+</html>
+
